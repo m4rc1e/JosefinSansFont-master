@@ -7,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2010, The Josefin Sans Project Authors (hi@typemade.mx), with Reserved Font Name Josefin";
+copyright = "Copyright 2010 The Josefin Sans Project Authors (hi@typemade.mx)";
 customParameters = (
 {
 name = licenseURL;
@@ -2391,7 +2391,7 @@ unicode = 00C9;
 },
 {
 glyphname = Ebreve;
-lastChange = "2016-09-28 14:06:30 +0000";
+lastChange = "2016-10-06 21:31:51 +0000";
 layers = (
 {
 components = (
@@ -2400,7 +2400,7 @@ name = E;
 },
 {
 name = brevecomb.case;
-transform = "{1, 0, 0, 1, 53, 254}";
+transform = "{1, 0, 0, 1, 144, 254}";
 }
 );
 layerId = UUID0;

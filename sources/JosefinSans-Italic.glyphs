@@ -1,6 +1,6 @@
 {
-.appVersion = "895";
-copyright = "Copyright (c) 2010, The Josefin Sans Project Authors (hi@typemade.mx), with Reserved Font Name Josefin";
+.appVersion = "926";
+copyright = "Copyright 2010 The Josefin Sans Project Authors (hi@typemade.mx)";
 customParameters = (
 {
 name = licenseURL;
@@ -26,6 +26,7 @@ value = 1;
 date = "2016-08-26 16:26:52 +0000";
 designer = "Santiago Orozco";
 designerURL = "http://www.typemade.mx";
+disablesAutomaticAlignment = 1;
 familyName = "Josefin Sans";
 featurePrefixes = (
 {
@@ -25506,7 +25507,6 @@ width = 600;
 unicode = 02DC;
 }
 );
-disablesAutomaticAlignment = 1;
 instances = (
 {
 customParameters = (
