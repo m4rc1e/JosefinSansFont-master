@@ -16,7 +16,8 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = fsType;
-value = "0";
+value = (
+);
 },
 {
 name = "Use Typo Metrics";
@@ -25505,6 +25506,21 @@ width = 600;
 }
 );
 unicode = 02DC;
+},
+{
+glyphname = NULL;
+lastChange = "2016-10-06 21:33:23 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 0;
+},
+{
+layerId = UUID1;
+width = 0;
+}
+);
+unicode = 0000;
 }
 );
 instances = (
@@ -25536,11 +25552,11 @@ value = -250;
 },
 {
 name = winDescent;
-value = 271;
+value = 264;
 },
 {
 name = winAscent;
-value = 991;
+value = 982;
 }
 );
 interpolationWeight = 14;
@@ -25548,7 +25564,8 @@ instanceInterpolations = {
 UUID0 = 1;
 };
 isItalic = 1;
-name = Thin;
+linkStyle = Thin;
+name = "Thin Italic";
 weightClass = Thin;
 },
 {
@@ -25579,11 +25596,11 @@ value = -250;
 },
 {
 name = winDescent;
-value = 271;
+value = 264;
 },
 {
 name = winAscent;
-value = 991;
+value = 982;
 }
 );
 interpolationWeight = 41;
@@ -25592,7 +25609,8 @@ UUID0 = 0.790698;
 UUID1 = 0.209302;
 };
 isItalic = 1;
-name = Light;
+linkStyle = Light;
+name = "Light Italic";
 weightClass = Light;
 },
 {
@@ -25623,11 +25641,11 @@ value = -250;
 },
 {
 name = winDescent;
-value = 271;
+value = 264;
 },
 {
 name = winAscent;
-value = 991;
+value = 982;
 }
 );
 interpolationWeight = 69;
@@ -25636,7 +25654,8 @@ UUID0 = 0.573643;
 UUID1 = 0.426357;
 };
 isItalic = 1;
-name = Regular;
+linkStyle = Regular;
+name = Italic;
 },
 {
 customParameters = (
@@ -25666,11 +25685,11 @@ value = -250;
 },
 {
 name = winDescent;
-value = 271;
+value = 264;
 },
 {
 name = winAscent;
-value = 991;
+value = 982;
 }
 );
 interpolationWeight = 109;
@@ -25679,7 +25698,8 @@ UUID0 = 0.263566;
 UUID1 = 0.736434;
 };
 isItalic = 1;
-name = SemiBold;
+linkStyle = SemiBold;
+name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
@@ -25710,11 +25730,11 @@ value = -250;
 },
 {
 name = winDescent;
-value = 271;
+value = 264;
 },
 {
 name = winAscent;
-value = 991;
+value = 982;
 }
 );
 interpolationWeight = 123;
@@ -25722,8 +25742,10 @@ instanceInterpolations = {
 UUID0 = 0.155039;
 UUID1 = 0.844961;
 };
+isBold = 1;
 isItalic = 1;
-name = Bold;
+linkStyle = Bold;
+name = "Bold Italic";
 weightClass = Bold;
 }
 );
