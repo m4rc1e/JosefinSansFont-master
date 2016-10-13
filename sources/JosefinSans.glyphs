@@ -38812,6 +38812,12 @@ unicode = 0000;
 );
 instances = (
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--strong-stem-width=\"\"";
+}
+);
 interpolationWeight = 20;
 instanceInterpolations = {
 UUID0 = 0.955882;
@@ -38821,6 +38827,12 @@ name = Thin;
 weightClass = Thin;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--strong-stem-width=\"\"";
+}
+);
 interpolationWeight = 50;
 instanceInterpolations = {
 UUID0 = 0.735294;
@@ -38830,6 +38842,12 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--strong-stem-width=\"\"";
+}
+);
 instanceInterpolations = {
 UUID0 = 0.367647;
 UUID1 = 0.632353;
@@ -38837,6 +38855,12 @@ UUID1 = 0.632353;
 name = Regular;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--strong-stem-width=\"\"";
+}
+);
 interpolationWeight = 150;
 instanceInterpolations = {
 UUID1 = 1;
