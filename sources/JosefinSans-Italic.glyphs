@@ -109,15 +109,11 @@ value = 991;
 );
 descender = -250;
 horizontalStems = (
-126,
-24,
-217
+13
 );
 id = UUID0;
 verticalStems = (
-220,
-126,
-177
+14
 );
 weight = Light;
 weightValue = 14;
@@ -168,15 +164,11 @@ value = 991;
 );
 descender = -250;
 horizontalStems = (
-65,
-81,
-253
+140
 );
 id = UUID1;
 verticalStems = (
-256,
-65,
-246
+145
 );
 weight = Bold;
 weightValue = 143;
