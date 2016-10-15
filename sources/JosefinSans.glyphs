@@ -1,8 +1,5 @@
 {
 .appVersion = "926";
-DisplayStrings = (
-H
-);
 classes = (
 {
 automatic = 1;
@@ -31,7 +28,7 @@ value = (
 },
 {
 name = "Use Typo Metrics";
-value = 1;
+value = 0;
 }
 );
 date = "2016-08-26 16:01:20 +0000";
@@ -99,14 +96,6 @@ name = zero;
 );
 fontMaster = (
 {
-alignmentZones = (
-"{750, 7}",
-"{700, 32}",
-"{375, 5}",
-"{0, -7}",
-"{-180, -16}",
-"{-250, 0}"
-);
 ascender = 750;
 capHeight = 700;
 customParameters = (
@@ -161,13 +150,6 @@ weightValue = 14;
 xHeight = 375;
 },
 {
-alignmentZones = (
-"{750, 37}",
-"{736, 9}",
-"{437, 22}",
-"{0, -9}",
-"{-210, -11}"
-);
 ascender = 750;
 capHeight = 736;
 customParameters = (
@@ -220,7 +202,7 @@ xHeight = 437;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2016-09-28 13:49:01 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -235,20 +217,6 @@ position = "{629, 10}";
 {
 name = top;
 position = "{355, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{768, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -291,20 +259,6 @@ position = "{620, 10}";
 {
 name = top;
 position = "{348, 776}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{732, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -1114,7 +1068,7 @@ unicode = 0104;
 },
 {
 glyphname = Aring;
-lastChange = "2016-09-28 14:06:30 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -1124,15 +1078,6 @@ name = A;
 {
 name = ringcomb.case;
 transform = "{1, 0, 0, 1, 124, 284}";
-}
-);
-hints = (
-{
-place = "{344, 162}";
-},
-{
-horizontal = 1;
-place = "{811, 162}";
 }
 );
 layerId = UUID0;
@@ -1146,15 +1091,6 @@ name = A;
 {
 name = ringcomb.case;
 transform = "{1, 0, 0, 1, 217, 334}";
-}
-);
-hints = (
-{
-place = "{339, 65}";
-},
-{
-horizontal = 1;
-place = "{805, 65}";
 }
 );
 layerId = UUID1;
@@ -1241,7 +1177,7 @@ unicode = 00C3;
 },
 {
 glyphname = AE;
-lastChange = "2016-09-28 14:06:49 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -1252,20 +1188,6 @@ position = "{473, 0}";
 {
 name = top;
 position = "{620, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -1320,20 +1242,6 @@ position = "{563, 0}";
 {
 name = top;
 position = "{673, 756}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -1418,7 +1326,7 @@ unicode = 01FC;
 },
 {
 glyphname = B;
-lastChange = "2016-09-28 13:22:36 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -1429,23 +1337,6 @@ position = "{273, 0}";
 {
 name = top;
 position = "{273, 700}";
-}
-);
-hints = (
-{
-place = "{449, 72}";
-},
-{
-horizontal = 1;
-place = "{31, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{731, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -1513,23 +1404,6 @@ name = top;
 position = "{336, 736}";
 }
 );
-hints = (
-{
-place = "{377, 108}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -1592,7 +1466,7 @@ unicode = 0042;
 },
 {
 glyphname = C;
-lastChange = "2016-09-28 13:16:12 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -1603,20 +1477,6 @@ position = "{415, 0}";
 {
 name = top;
 position = "{415, 710}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{744, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{28, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -1664,20 +1524,6 @@ position = "{399, 0}";
 {
 name = top;
 position = "{389, 756}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{708, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -1790,7 +1636,7 @@ unicode = 010C;
 },
 {
 glyphname = Ccedilla;
-lastChange = "2016-09-24 00:06:01 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -1800,18 +1646,6 @@ name = C;
 {
 name = cedillacomb.case;
 transform = "{1, 0, 0, 1, 192, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-187, 265}";
-},
-{
-horizontal = 1;
-place = "{744, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -1825,18 +1659,6 @@ name = C;
 {
 name = cedillacomb.case;
 transform = "{1, 0, 0, 1, 277, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-250, 321}";
-},
-{
-horizontal = 1;
-place = "{708, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -1913,7 +1735,7 @@ unicode = 010A;
 },
 {
 glyphname = D;
-lastChange = "2016-09-27 13:57:09 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -1928,20 +1750,6 @@ position = "{125, 350}";
 {
 name = top;
 position = "{290, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{31, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{731, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -1990,20 +1798,6 @@ position = "{167, 368}";
 {
 name = top;
 position = "{318, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{79, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{622, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -2082,7 +1876,7 @@ unicode = 01C4;
 },
 {
 glyphname = Eth;
-lastChange = "2016-09-28 14:07:00 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -2092,20 +1886,6 @@ name = D;
 {
 name = strokeshortcomb;
 transform = "{1, 0, 0, 1, -77, 106}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -2120,20 +1900,6 @@ name = D;
 alignment = -1;
 name = strokeshortcomb;
 transform = "{1, 0, 0, 1, 0, -3}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -2239,7 +2005,7 @@ unicode = 01C5;
 },
 {
 glyphname = E;
-lastChange = "2016-09-28 13:30:31 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -2258,20 +2024,6 @@ position = "{315, 700}";
 {
 name = topleft;
 position = "{0, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -2313,20 +2065,6 @@ position = "{346, 756}";
 {
 name = topleft;
 position = "{45, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -3004,7 +2742,7 @@ unicode = 1EBC;
 },
 {
 glyphname = F;
-lastChange = "2016-09-28 13:31:44 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -3015,20 +2753,6 @@ position = "{288, 0}";
 {
 name = top;
 position = "{288, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -3062,20 +2786,6 @@ name = top;
 position = "{313, 736}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -3103,7 +2813,7 @@ unicode = 0046;
 },
 {
 glyphname = G;
-lastChange = "2016-09-28 13:34:27 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -3114,20 +2824,6 @@ position = "{390, 0}";
 {
 name = top;
 position = "{400, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{744, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{28, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -3179,20 +2875,6 @@ position = "{381, 0}";
 {
 name = top;
 position = "{411, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{708, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -3407,7 +3089,7 @@ unicode = 0120;
 },
 {
 glyphname = H;
-lastChange = "2016-09-27 13:57:05 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -3426,20 +3108,6 @@ position = "{366, 700}";
 {
 name = topleft;
 position = "{0, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -3483,20 +3151,6 @@ name = topleft;
 position = "{45, 736}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -3524,27 +3178,13 @@ unicode = 0048;
 },
 {
 glyphname = Hbar;
-lastChange = "2016-09-27 13:57:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = H;
 transform = "{1, 0, 0, 1, 48, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{528, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{542, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -3566,20 +3206,6 @@ components = (
 {
 name = H;
 transform = "{1, 0, 0, 1, 92, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{478, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{531, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -3637,7 +3263,7 @@ unicode = 0124;
 },
 {
 glyphname = I;
-lastChange = "2016-09-27 13:57:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -3656,20 +3282,6 @@ position = "{127, 700}";
 {
 name = topleft;
 position = "{0, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -3703,20 +3315,6 @@ position = "{168, 756}";
 {
 name = topleft;
 position = "{45, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -4262,7 +3860,7 @@ unicode = 0128;
 },
 {
 glyphname = J;
-lastChange = "2016-09-28 13:31:17 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -4273,20 +3871,6 @@ position = "{168, 0}";
 {
 name = top;
 position = "{168, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-106, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -4319,20 +3903,6 @@ position = "{168, 0}";
 {
 name = top;
 position = "{238, 756}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-144, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -4395,7 +3965,7 @@ unicode = 0134;
 },
 {
 glyphname = K;
-lastChange = "2016-09-28 13:34:43 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -4406,26 +3976,6 @@ position = "{304, 0}";
 {
 name = top;
 position = "{304, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{737, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -4461,26 +4011,6 @@ position = "{330, 0}";
 {
 name = top;
 position = "{380, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -4547,7 +4077,7 @@ unicode = 0136;
 },
 {
 glyphname = L;
-lastChange = "2016-09-28 13:39:54 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -4566,20 +4096,6 @@ position = "{127, 700}";
 {
 name = topright;
 position = "{619, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -4615,20 +4131,6 @@ position = "{165, 756}";
 {
 name = topright;
 position = "{611, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -4854,26 +4356,12 @@ unicode = 01C8;
 },
 {
 glyphname = Lslash;
-lastChange = "2016-09-17 20:05:21 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = L;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{215, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{229, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -4896,20 +4384,6 @@ components = (
 name = L;
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{327, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{408, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -4929,7 +4403,7 @@ unicode = 0141;
 },
 {
 glyphname = M;
-lastChange = "2016-09-27 13:57:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -4940,20 +4414,6 @@ position = "{446, 0}";
 {
 name = top;
 position = "{446, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{768, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -4993,20 +4453,6 @@ name = top;
 position = "{474, 736}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{732, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -5040,7 +4486,7 @@ unicode = 004D;
 },
 {
 glyphname = N;
-lastChange = "2016-09-27 13:57:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -5051,20 +4497,6 @@ position = "{406, 0}";
 {
 name = top;
 position = "{406, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{768, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{4, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -5098,20 +4530,6 @@ position = "{427, 0}";
 {
 name = top;
 position = "{407, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{732, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-32, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -5275,35 +4693,9 @@ unicode = 0145;
 },
 {
 glyphname = Eng;
-lastChange = "2016-09-21 17:31:49 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{768, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{4, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{-155, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{545, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -5342,32 +4734,6 @@ nodes = (
 width = 811;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{732, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-32, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{-181, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{573, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -5561,7 +4927,7 @@ unicode = 00D1;
 },
 {
 glyphname = O;
-lastChange = "2016-10-05 14:45:13 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -5588,20 +4954,6 @@ position = "{25, 700}";
 {
 name = topright;
 position = "{530, 825}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{23, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{739, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -5674,20 +5026,6 @@ annotations = (
 {
 position = "{300.18, 381.51}";
 type = Text;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{71, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{629, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -6585,23 +5923,9 @@ unicode = 014C;
 },
 {
 glyphname = Oogonek;
-lastChange = "2016-09-24 00:17:01 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{23, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{739, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -6726,20 +6050,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = "{71, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{629, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -6807,7 +6117,7 @@ unicode = 01EA;
 },
 {
 glyphname = Oslash;
-lastChange = "2016-09-17 23:46:27 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -6823,20 +6133,6 @@ position = "{428, 700}";
 components = (
 {
 name = O;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{28, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{744, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -6867,20 +6163,6 @@ position = "{429, 736}";
 components = (
 {
 name = O;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-17, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{719, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -7011,7 +6293,7 @@ unicode = 022C;
 },
 {
 glyphname = OE;
-lastChange = "2016-09-24 00:03:31 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -7022,32 +6304,6 @@ position = "{504, 0}";
 {
 name = top;
 position = "{504, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{28, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{744, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -7114,32 +6370,6 @@ name = top;
 position = "{511, 736}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{71, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{629, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -7198,7 +6428,7 @@ unicode = 0152;
 },
 {
 glyphname = P;
-lastChange = "2016-09-28 13:44:29 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -7209,20 +6439,6 @@ position = "{255, 0}";
 {
 name = top;
 position = "{255, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -7271,20 +6487,6 @@ name = top;
 position = "{331, 736}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -7327,7 +6529,7 @@ unicode = 0050;
 },
 {
 glyphname = Thorn;
-lastChange = "2016-09-28 14:06:42 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -7338,20 +6540,6 @@ position = "{285, 0}";
 {
 name = top;
 position = "{285, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -7402,20 +6590,6 @@ name = top;
 position = "{272, 736}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -7460,7 +6634,7 @@ unicode = 00DE;
 },
 {
 glyphname = Q;
-lastChange = "2016-09-27 13:12:54 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -7471,20 +6645,6 @@ position = "{439, 0}";
 {
 name = top;
 position = "{439, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{23, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{739, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -7546,20 +6706,6 @@ name = top;
 position = "{435, 736}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{708, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -7616,7 +6762,7 @@ unicode = 0051;
 },
 {
 glyphname = R;
-lastChange = "2016-09-27 16:15:18 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -7627,20 +6773,6 @@ position = "{261, 0}";
 {
 name = top;
 position = "{261, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -7696,20 +6828,6 @@ position = "{361, 0}";
 {
 name = top;
 position = "{321, 756}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -7928,7 +7046,7 @@ unicode = 0212;
 },
 {
 glyphname = S;
-lastChange = "2016-09-27 16:16:13 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -7939,20 +7057,6 @@ position = "{294, 0}";
 {
 name = top;
 position = "{294, 720}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{740, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{28, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -8012,20 +7116,6 @@ position = "{289, -10}";
 {
 name = top;
 position = "{289, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{704, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -8247,7 +7337,7 @@ unicode = 0218;
 },
 {
 glyphname = Germandbls;
-lastChange = "2016-09-27 13:57:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -8315,32 +7405,6 @@ nodes = (
 width = 837;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{704, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{751, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -8412,23 +7476,9 @@ unicode = 1E9E;
 },
 {
 glyphname = Schwa;
-lastChange = "2016-09-21 17:27:46 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{357, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -8469,20 +7519,6 @@ nodes = (
 width = 798;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{352, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{745, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -8528,7 +7564,7 @@ unicode = 018F;
 },
 {
 glyphname = T;
-lastChange = "2016-09-28 13:36:56 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -8543,20 +7579,6 @@ position = "{287, 350}";
 {
 name = top;
 position = "{287, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -8590,20 +7612,6 @@ position = "{293, 368}";
 {
 name = top;
 position = "{293, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -8763,7 +7771,7 @@ unicode = 021A;
 },
 {
 glyphname = U;
-lastChange = "2016-10-05 14:33:35 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -8782,20 +7790,6 @@ position = "{345, 700}";
 {
 name = topright;
 position = "{583, 825}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{28, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -8844,20 +7838,6 @@ position = "{378, 756}";
 {
 name = topright;
 position = "{628, 839}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -9455,23 +8435,9 @@ unicode = 016A;
 },
 {
 glyphname = Uogonek;
-lastChange = "2016-09-27 13:57:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{28, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -9578,20 +8544,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -9717,7 +8669,7 @@ unicode = 0168;
 },
 {
 glyphname = V;
-lastChange = "2016-09-28 13:40:04 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -9728,20 +8680,6 @@ position = "{345, 0}";
 {
 name = top;
 position = "{345, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{4, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -9772,20 +8710,6 @@ name = top;
 position = "{368, 736}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-32, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -9810,7 +8734,7 @@ unicode = 0056;
 },
 {
 glyphname = W;
-lastChange = "2016-09-28 13:45:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -9821,20 +8745,6 @@ position = "{491, 0}";
 {
 name = top;
 position = "{491, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{4, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -9875,20 +8785,6 @@ position = "{512, 0}";
 {
 name = top;
 position = "{512, 746}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-32, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -10061,7 +8957,7 @@ unicode = 1E80;
 },
 {
 glyphname = X;
-lastChange = "2016-09-28 13:43:21 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -10072,20 +8968,6 @@ position = "{289, 0}";
 {
 name = top;
 position = "{289, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -10148,20 +9030,6 @@ name = top;
 position = "{363, 736}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -10217,7 +9085,7 @@ unicode = 0058;
 },
 {
 glyphname = Y;
-lastChange = "2016-09-28 13:49:06 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -10232,20 +9100,6 @@ position = "{320, 700}";
 {
 name = topleft;
 position = "{30, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -10281,20 +9135,6 @@ position = "{381, 736}";
 {
 name = topleft;
 position = "{10, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -10588,7 +9428,7 @@ unicode = 1EF8;
 },
 {
 glyphname = Z;
-lastChange = "2016-09-13 15:44:56 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -10599,20 +9439,6 @@ position = "{348, 0}";
 {
 name = top;
 position = "{348, 700}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{771, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -10655,20 +9481,6 @@ position = "{361, 0}";
 {
 name = top;
 position = "{361, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{735, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -10806,7 +9618,7 @@ unicode = 017B;
 },
 {
 glyphname = a;
-lastChange = "2016-09-28 14:02:48 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -10821,20 +9633,6 @@ position = "{481, 10}";
 {
 name = top;
 position = "{270, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{408, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -10896,20 +9694,6 @@ position = "{629, 10}";
 {
 name = top;
 position = "{327, 457}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{382, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -11658,7 +10442,7 @@ unicode = 0101;
 },
 {
 glyphname = aogonek;
-lastChange = "2016-09-24 00:37:20 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -11677,32 +10461,6 @@ position = "{481, 10}";
 {
 name = top;
 position = "{270, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{408, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{408, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -11790,20 +10548,6 @@ name = top;
 position = "{331, 437}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{382, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -11875,7 +10619,7 @@ unicode = 0105;
 },
 {
 glyphname = aring;
-lastChange = "2016-10-05 15:20:33 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -11885,15 +10629,6 @@ name = a;
 {
 name = ringcomb;
 transform = "{1, 0, 0, 1, 39, 30}";
-}
-);
-hints = (
-{
-place = "{212, 151}";
-},
-{
-horizontal = 1;
-place = "{502, 151}";
 }
 );
 layerId = UUID0;
@@ -11907,15 +10642,6 @@ name = a;
 {
 name = ringcomb;
 transform = "{1, 0, 0, 1, 151, 20}";
-}
-);
-hints = (
-{
-place = "{218, 65}";
-},
-{
-horizontal = 1;
-place = "{507, 65}";
 }
 );
 layerId = UUID1;
@@ -12001,7 +10727,7 @@ unicode = 00E3;
 },
 {
 glyphname = ae;
-lastChange = "2016-09-27 15:54:51 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -12012,34 +10738,6 @@ position = "{377, 0}";
 {
 name = top;
 position = "{377, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{19, 224}";
-},
-{
-horizontal = 1;
-place = "{204, 229}";
-},
-{
-horizontal = 1;
-place = "{17, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{16, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -12144,34 +10842,6 @@ position = "{423, 0}";
 {
 name = top;
 position = "{423, 437}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-8, 230}";
-},
-{
-horizontal = 1;
-place = "{136, 249}";
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -12307,7 +10977,7 @@ unicode = 01FD;
 },
 {
 glyphname = b;
-lastChange = "2016-09-27 15:55:11 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -12324,20 +10994,6 @@ annotations = (
 {
 position = "{46.849, 157.628}";
 type = Text;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{775, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -12398,20 +11054,6 @@ name = top;
 position = "{313, 437}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -12466,7 +11108,7 @@ unicode = 0062;
 },
 {
 glyphname = c;
-lastChange = "2016-09-28 14:02:57 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -12477,20 +11119,6 @@ position = "{209, 0}";
 {
 name = top;
 position = "{249, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{408, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -12539,20 +11167,6 @@ position = "{238, 0}";
 {
 name = top;
 position = "{256, 447}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -12665,7 +11279,7 @@ unicode = 010D;
 },
 {
 glyphname = ccedilla;
-lastChange = "2016-10-05 15:19:03 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -12675,30 +11289,6 @@ name = c;
 {
 name = cedillacomb;
 transform = "{1, 0, 0, 1, 1, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-198, 256}";
-},
-{
-horizontal = 1;
-place = "{408, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{408, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -12712,30 +11302,6 @@ name = c;
 {
 name = cedillacomb;
 transform = "{1, 0, 0, 1, 117, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-244, 316}";
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -12812,7 +11378,7 @@ unicode = 010B;
 },
 {
 glyphname = d;
-lastChange = "2016-09-28 14:04:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -12831,20 +11397,6 @@ position = "{270, 375}";
 {
 name = topright;
 position = "{514, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{775, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -12913,20 +11465,6 @@ name = topright;
 position = "{607, 437}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -12982,35 +11520,9 @@ unicode = 0064;
 },
 {
 glyphname = eth;
-lastChange = "2016-09-27 15:54:51 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{751, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -13068,32 +11580,6 @@ nodes = (
 width = 500;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-6, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{738, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -13257,7 +11743,7 @@ unicode = 01C6;
 },
 {
 glyphname = e;
-lastChange = "2016-10-05 14:46:49 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -13323,20 +11809,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{16, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -13389,20 +11861,6 @@ position = "{475, 10}";
 {
 name = top;
 position = "{290, 458}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -14030,35 +12488,9 @@ unicode = 0113;
 },
 {
 glyphname = eogonek;
-lastChange = "2016-09-24 14:10:26 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{16, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{16, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -14119,20 +12551,6 @@ nodes = (
 width = 463;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -14258,7 +12676,7 @@ unicode = 0259;
 },
 {
 glyphname = f;
-lastChange = "2016-09-28 13:53:34 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -14269,20 +12687,6 @@ position = "{142, 0}";
 {
 name = top;
 position = "{142, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{775, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -14330,20 +12734,6 @@ name = top;
 position = "{218, 437}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{751, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -14384,7 +12774,7 @@ unicode = 0066;
 },
 {
 glyphname = g;
-lastChange = "2016-09-27 15:55:11 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -14395,20 +12785,6 @@ position = "{270, 0}";
 {
 name = top;
 position = "{270, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{407, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-226, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -14478,20 +12854,6 @@ position = "{316, 0}";
 {
 name = top;
 position = "{316, 457}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{382, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-251, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -14725,7 +13087,7 @@ unicode = 0121;
 },
 {
 glyphname = h;
-lastChange = "2016-09-27 15:55:11 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -14740,20 +13102,6 @@ position = "{101, 561}";
 {
 name = top;
 position = "{95, 735}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{775, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -14830,20 +13178,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -14881,7 +13215,7 @@ unicode = 0068;
 },
 {
 glyphname = hbar;
-lastChange = "2016-10-05 15:19:03 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -14891,20 +13225,6 @@ name = h;
 {
 name = strokeshortcomb;
 transform = "{1, 0, 0, 1, -101, 317}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{517, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{531, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -14918,20 +13238,6 @@ name = h;
 {
 name = strokeshortcomb;
 transform = "{1, 0, 0, 1, -26, 254}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{478, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{531, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -14975,7 +13281,7 @@ unicode = 0125;
 },
 {
 glyphname = i;
-lastChange = "2016-10-05 14:52:03 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -14991,20 +13297,6 @@ name = idotless;
 {
 name = dotaccentcomb;
 transform = "{1, 0, 0, 1, 15, -40}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{545, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -15026,20 +13318,6 @@ name = dotaccentcomb;
 transform = "{1, 0, 0, 1, 26, -20}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{573, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 width = 284;
 }
@@ -15050,7 +13328,7 @@ unicode = 0069;
 },
 {
 glyphname = idotless;
-lastChange = "2016-10-05 14:50:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -15065,20 +13343,6 @@ position = "{172, 10}";
 {
 name = top;
 position = "{102, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{545, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -15110,20 +13374,6 @@ name = top;
 position = "{144, 437}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{573, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -15145,7 +13395,7 @@ unicode = 0131;
 },
 {
 glyphname = iacute;
-lastChange = "2016-10-05 14:50:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -15155,20 +13405,6 @@ name = idotless;
 {
 name = acutecomb;
 transform = "{1, 0, 0, 1, 40, -20}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -15182,20 +13418,6 @@ name = idotless;
 {
 name = acutecomb;
 transform = "{1, 0, 0, 1, 117, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -15239,7 +13461,7 @@ unicode = 012D;
 },
 {
 glyphname = icircumflex;
-lastChange = "2016-10-05 15:19:03 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -15249,20 +13471,6 @@ name = idotless;
 {
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, -130, -30}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -15276,20 +13484,6 @@ name = idotless;
 {
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, -55, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -15333,7 +13527,7 @@ unicode = 0209;
 },
 {
 glyphname = idieresis;
-lastChange = "2016-10-05 15:19:03 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -15343,20 +13537,6 @@ name = idotless;
 {
 name = dieresiscomb;
 transform = "{1, 0, 0, 1, -83, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -15370,20 +13550,6 @@ name = idotless;
 {
 name = dieresiscomb;
 transform = "{1, 0, 0, 1, -98, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -15459,7 +13625,7 @@ unicode = 1ECB;
 },
 {
 glyphname = igrave;
-lastChange = "2016-10-05 14:50:27 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -15469,20 +13635,6 @@ name = idotless;
 {
 name = gravecomb;
 transform = "{1, 0, 0, 1, 23, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -15496,20 +13648,6 @@ name = idotless;
 {
 name = gravecomb;
 transform = "{1, 0, 0, 1, -62, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -15806,23 +13944,9 @@ unicode = 0129;
 },
 {
 glyphname = j;
-lastChange = "2016-09-28 13:54:01 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-155, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{545, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -15862,20 +13986,6 @@ nodes = (
 width = 227;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-181, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{573, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -15920,27 +14030,13 @@ unicode = 006A;
 },
 {
 glyphname = dotlessj;
-lastChange = "2016-09-27 13:57:18 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
 {
 name = top;
 position = "{112, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-155, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{545, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -15970,20 +14066,6 @@ name = top;
 position = "{178, 439}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-181, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{573, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -16008,7 +14090,7 @@ width = 333;
 },
 {
 glyphname = jcircumflex;
-lastChange = "2016-10-06 21:57:08 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -16018,20 +14100,6 @@ name = dotlessj;
 {
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, -120, -30}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-155, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{545, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -16047,20 +14115,6 @@ name = circumflexcomb;
 transform = "{1, 0, 0, 1, -21, 2}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-181, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{573, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 width = 333;
 }
@@ -16069,7 +14123,7 @@ unicode = 0135;
 },
 {
 glyphname = k;
-lastChange = "2016-09-27 16:11:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -16080,20 +14134,6 @@ position = "{209, 0}";
 {
 name = top;
 position = "{209, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{775, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -16138,20 +14178,6 @@ position = "{272, 0}";
 {
 name = top;
 position = "{272, 437}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -16227,29 +14253,9 @@ unicode = 0137;
 },
 {
 glyphname = kgreenlandic;
-lastChange = "2016-09-27 15:55:11 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{737, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -16283,26 +14289,6 @@ nodes = (
 width = 413;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -16341,7 +14327,7 @@ unicode = 0138;
 },
 {
 glyphname = l;
-lastChange = "2016-09-27 15:55:11 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -16360,20 +14346,6 @@ position = "{109, 750}";
 {
 name = topright;
 position = "{179, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{775, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -16407,20 +14379,6 @@ position = "{142, 807}";
 {
 name = topright;
 position = "{267, 437}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -16658,7 +14616,7 @@ unicode = 0142;
 },
 {
 glyphname = m;
-lastChange = "2016-09-28 14:01:20 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -16669,20 +14627,6 @@ position = "{380, 0}";
 {
 name = top;
 position = "{380, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{407, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -16741,20 +14685,6 @@ name = top;
 position = "{432, 437}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -16808,7 +14738,7 @@ unicode = 006D;
 },
 {
 glyphname = n;
-lastChange = "2016-09-27 18:05:36 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -16819,20 +14749,6 @@ position = "{241, 0}";
 {
 name = top;
 position = "{241, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{407, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -16874,20 +14790,6 @@ position = "{297, 0}";
 {
 name = top;
 position = "{297, 447}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -17060,26 +14962,12 @@ unicode = 0146;
 },
 {
 glyphname = eng;
-lastChange = "2016-09-27 15:55:11 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = n;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-155, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{545, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -17107,20 +14995,6 @@ width = 482;
 components = (
 {
 name = n;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-181, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{573, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -17151,26 +15025,12 @@ unicode = 014B;
 },
 {
 glyphname = nhookleft;
-lastChange = "2016-09-27 15:55:11 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = n;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-155, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{545, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -17325,7 +15185,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2016-10-05 14:38:22 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -17348,20 +15208,6 @@ position = "{250, 375}";
 {
 name = topright;
 position = "{345, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -17424,20 +15270,6 @@ position = "{286, 457}";
 {
 name = topright;
 position = "{450, 437}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -18338,35 +16170,9 @@ unicode = 014D;
 },
 {
 glyphname = oogonek;
-lastChange = "2016-10-06 21:58:30 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -18496,20 +16302,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -18580,7 +16372,7 @@ unicode = 01EB;
 },
 {
 glyphname = oslash;
-lastChange = "2016-09-20 16:53:50 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -18592,20 +16384,6 @@ position = "{239, 375}";
 components = (
 {
 name = o;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{17, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{408, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -18632,20 +16410,6 @@ position = "{273, 437}";
 components = (
 {
 name = o;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-26, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{401, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -18776,7 +16540,7 @@ unicode = 022D;
 },
 {
 glyphname = oe;
-lastChange = "2016-09-27 15:54:51 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -18797,32 +16561,6 @@ name = c;
 alignment = -1;
 name = e;
 transform = "{1, 0, 0, 1, 240, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{16, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -18849,32 +16587,6 @@ name = e;
 transform = "{1, 0, 0, 1, 302, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 width = 855;
 }
@@ -18885,7 +16597,7 @@ unicode = 0153;
 },
 {
 glyphname = p;
-lastChange = "2016-09-28 14:03:35 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -18896,20 +16608,6 @@ position = "{270, 0}";
 {
 name = top;
 position = "{270, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{406, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-225, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -18970,20 +16668,6 @@ name = top;
 position = "{313, 437}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{382, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-250, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -19038,35 +16722,9 @@ unicode = 0070;
 },
 {
 glyphname = thorn;
-lastChange = "2016-09-24 00:58:16 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{775, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-225, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{406, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-225, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -19115,32 +16773,6 @@ nodes = (
 width = 515;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-250, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{382, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-250, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -19193,7 +16825,7 @@ unicode = 00FE;
 },
 {
 glyphname = q;
-lastChange = "2016-09-27 17:57:03 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -19204,20 +16836,6 @@ position = "{270, 0}";
 {
 name = top;
 position = "{270, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-225, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{406, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -19278,20 +16896,6 @@ name = top;
 position = "{312, 437}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-250, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{382, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -19347,7 +16951,7 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2016-09-28 14:03:54 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -19358,20 +16962,6 @@ position = "{159, 0}";
 {
 name = top;
 position = "{159, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{407, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -19405,20 +16995,6 @@ position = "{127, 0}";
 {
 name = top;
 position = "{194, 437}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{383, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -19616,7 +17192,7 @@ unicode = 0213;
 },
 {
 glyphname = s;
-lastChange = "2016-09-28 14:04:04 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -19627,23 +17203,6 @@ position = "{170, 0}";
 {
 name = top;
 position = "{170, 375}";
-}
-);
-hints = (
-{
-place = "{124, 240}";
-},
-{
-horizontal = 1;
-place = "{404, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{17, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -19703,23 +17262,6 @@ position = "{219, -10}";
 {
 name = top;
 position = "{225, 447}";
-}
-);
-hints = (
-{
-place = "{62, 243}";
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -19941,26 +17483,9 @@ unicode = 0219;
 },
 {
 glyphname = germandbls;
-lastChange = "2016-09-28 14:07:05 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{432, 103}";
-},
-{
-horizontal = 1;
-place = "{17, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{683, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -20018,23 +17543,6 @@ nodes = (
 width = 559;
 },
 {
-hints = (
-{
-place = "{360, 142}";
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{657, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -20098,7 +17606,7 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2016-09-28 14:04:18 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -20117,20 +17625,6 @@ position = "{153, 375}";
 {
 name = topright;
 position = "{275, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{644, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -20172,20 +17666,6 @@ position = "{187, 437}";
 {
 name = topright;
 position = "{374, 437}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{619, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -20349,7 +17829,7 @@ unicode = 021B;
 },
 {
 glyphname = u;
-lastChange = "2016-10-05 14:38:44 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -20368,20 +17848,6 @@ position = "{241, 375}";
 {
 name = topright;
 position = "{414, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{18, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -20431,20 +17897,6 @@ position = "{294, 457}";
 {
 name = topright;
 position = "{507, 437}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -21195,7 +18647,7 @@ unicode = 0169;
 },
 {
 glyphname = v;
-lastChange = "2016-09-28 14:04:52 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -21206,20 +18658,6 @@ position = "{213, 0}";
 {
 name = top;
 position = "{213, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{2, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -21251,20 +18689,6 @@ name = top;
 position = "{267, 437}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-23, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -21290,7 +18714,7 @@ unicode = 0076;
 },
 {
 glyphname = w;
-lastChange = "2016-09-28 13:58:46 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -21301,20 +18725,6 @@ position = "{329, 0}";
 {
 name = top;
 position = "{329, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{2, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -21351,20 +18761,6 @@ position = "{342, 0}";
 {
 name = top;
 position = "{342, 437}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-23, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -21533,7 +18929,7 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2016-09-27 16:13:50 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -21544,26 +18940,6 @@ position = "{181, 0}";
 {
 name = top;
 position = "{181, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{399, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -21609,26 +18985,6 @@ name = top;
 position = "{256, 437}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -21667,7 +19023,7 @@ unicode = 0078;
 },
 {
 glyphname = y;
-lastChange = "2016-09-28 14:02:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -21678,20 +19034,6 @@ position = "{323, 0}";
 {
 name = top;
 position = "{213, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-225, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -21726,20 +19068,6 @@ position = "{437, -10}";
 {
 name = top;
 position = "{277, 437}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-250, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -22038,7 +19366,7 @@ unicode = 1EF9;
 },
 {
 glyphname = z;
-lastChange = "2016-09-28 13:59:06 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -22049,20 +19377,6 @@ position = "{212, 0}";
 {
 name = top;
 position = "{232, 375}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{430, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -22102,20 +19416,6 @@ position = "{261, 0}";
 {
 name = top;
 position = "{261, 437}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{405, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -22344,7 +19644,7 @@ rightMetricsKey = f;
 },
 {
 glyphname = f_f_i;
-lastChange = "2016-09-28 14:07:05 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 background = {
@@ -22383,20 +19683,6 @@ name = f_f;
 {
 name = i;
 transform = "{1, 0, 0, 1, 563, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{407, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -22440,20 +19726,6 @@ name = f_f;
 alignment = -1;
 name = i;
 transform = "{1, 0, 0, 1, 665, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{751, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -22627,7 +19899,7 @@ rightMetricsKey = ij;
 },
 {
 glyphname = fi;
-lastChange = "2016-09-28 14:07:05 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -22675,44 +19947,6 @@ name = i;
 transform = "{1, 0, 0, 1, 284, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{520, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{775, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -22794,44 +20028,6 @@ name = i;
 transform = "{1, 0, 0, 1, 350, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{573, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{751, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{751, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -22873,7 +20069,7 @@ unicode = FB01;
 },
 {
 glyphname = fl;
-lastChange = "2016-09-27 15:55:11 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -22890,44 +20086,6 @@ components = (
 {
 name = l;
 transform = "{1, 0, 0, 1, 284, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{775, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -23011,44 +20169,6 @@ name = l;
 transform = "{1, 0, 0, 1, 350, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{751, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{751, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -23090,7 +20210,7 @@ unicode = FB02;
 },
 {
 glyphname = ordfeminine;
-lastChange = "2016-09-21 17:19:56 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 annotations = (
@@ -23101,20 +20221,6 @@ type = Text;
 {
 position = "{182.576, 377.807}";
 type = Text;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{431.25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{723, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -23164,20 +20270,6 @@ nodes = (
 width = 417;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{481.857, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{705.275, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -23229,23 +20321,9 @@ unicode = 00AA;
 },
 {
 glyphname = ordmasculine;
-lastChange = "2016-09-21 17:21:27 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{426.25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{718.75, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -23286,20 +20364,6 @@ nodes = (
 width = 383;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{467.857, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{692.418, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -23344,47 +20408,9 @@ unicode = 00BA;
 },
 {
 glyphname = pi;
-lastChange = "2016-09-13 15:45:57 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{598, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{503, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{556, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{598, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -23408,44 +20434,6 @@ nodes = (
 width = 276;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{573, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{478, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{531, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{573, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -23560,23 +20548,9 @@ unicode = 0030;
 },
 {
 glyphname = one;
-lastChange = "2016-09-27 13:57:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{650, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -23594,20 +20568,6 @@ nodes = (
 width = 307;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{650, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -23630,23 +20590,9 @@ unicode = 0031;
 },
 {
 glyphname = two;
-lastChange = "2016-09-21 21:01:46 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{658, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -23688,20 +20634,6 @@ nodes = (
 width = 495;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{658, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -23747,23 +20679,9 @@ unicode = 0032;
 },
 {
 glyphname = three;
-lastChange = "2016-09-21 21:08:04 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{650, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -23847,20 +20765,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{650, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -23909,23 +20813,9 @@ unicode = 0033;
 },
 {
 glyphname = four;
-lastChange = "2016-09-21 21:09:11 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{658, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -23954,20 +20844,6 @@ nodes = (
 width = 505;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{658, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -24000,23 +20876,9 @@ unicode = 0034;
 },
 {
 glyphname = five;
-lastChange = "2016-09-21 21:09:50 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{650, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -24060,20 +20922,6 @@ nodes = (
 width = 543;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{650, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -24121,7 +20969,7 @@ unicode = 0035;
 },
 {
 glyphname = six;
-lastChange = "2016-09-21 21:12:41 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 background = {
@@ -24176,20 +21024,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{633, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -24289,20 +21123,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{637, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -24356,23 +21176,9 @@ unicode = 0036;
 },
 {
 glyphname = seven;
-lastChange = "2016-09-21 21:13:08 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{650, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -24391,20 +21197,6 @@ nodes = (
 width = 469;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{650, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -24427,29 +21219,9 @@ unicode = 0037;
 },
 {
 glyphname = eight;
-lastChange = "2016-09-21 22:41:58 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{53, 69}";
-},
-{
-place = "{382, 78}";
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{658, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -24522,26 +21294,6 @@ nodes = (
 width = 510;
 },
 {
-hints = (
-{
-place = "{36, 144}";
-},
-{
-place = "{330, 142}";
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{658, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -24618,23 +21370,9 @@ unicode = 0038;
 },
 {
 glyphname = nine;
-lastChange = "2016-09-21 22:44:05 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{633, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -24733,20 +21471,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = "{636, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -24832,23 +21556,9 @@ width = 628;
 },
 {
 glyphname = onesuperior;
-lastChange = "2016-09-21 23:02:54 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{401, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -24866,20 +21576,6 @@ nodes = (
 width = 249;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{401, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -24901,23 +21597,9 @@ unicode = 00B9;
 },
 {
 glyphname = twosuperior;
-lastChange = "2016-09-21 23:17:00 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{699.986, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{375, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -24953,20 +21635,6 @@ nodes = (
 width = 398;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{699.986, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{375, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -25006,23 +21674,9 @@ unicode = 00B2;
 },
 {
 glyphname = threesuperior;
-lastChange = "2016-09-24 01:02:42 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{376.061, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700.06, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -25067,20 +21721,6 @@ nodes = (
 width = 419;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{376.061, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700.06, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -25129,23 +21769,9 @@ unicode = 00B3;
 },
 {
 glyphname = foursuperior;
-lastChange = "2016-09-21 23:02:56 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{658, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -25169,20 +21795,6 @@ nodes = (
 width = 348;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{658, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -25210,23 +21822,9 @@ unicode = 2074;
 },
 {
 glyphname = fraction;
-lastChange = "2016-09-24 00:29:52 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{306, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{1061, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -25242,20 +21840,6 @@ nodes = (
 width = 532;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{181, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{936, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -25413,23 +21997,9 @@ unicode = 00BE;
 },
 {
 glyphname = asterisk;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{720, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{434, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -25488,20 +22058,6 @@ nodes = (
 width = 335;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{720, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{434, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -25564,23 +22120,9 @@ unicode = 002A;
 },
 {
 glyphname = backslash;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-19, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -25600,20 +22142,6 @@ nodes = (
 width = 320;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-19, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -25664,18 +22192,9 @@ unicode = 00B7;
 },
 {
 glyphname = bullet;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{174, 131}";
-},
-{
-horizontal = 1;
-place = "{235, 131}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -25700,15 +22219,6 @@ nodes = (
 width = 479;
 },
 {
-hints = (
-{
-place = "{113, 254}";
-},
-{
-horizontal = 1;
-place = "{174, 254}";
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -25737,26 +22247,9 @@ unicode = 2022;
 },
 {
 glyphname = colon;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{65, 40}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{290, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -25799,23 +22292,6 @@ nodes = (
 width = 175;
 },
 {
-hints = (
-{
-place = "{33, 103}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{355, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -25862,23 +22338,9 @@ unicode = 003A;
 },
 {
 glyphname = comma;
-lastChange = "2016-09-27 15:42:43 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{86, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-120, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -25898,20 +22360,6 @@ nodes = (
 width = 200;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{86, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-120, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -25936,47 +22384,9 @@ unicode = 002C;
 },
 {
 glyphname = ellipsis;
-lastChange = "2016-09-27 15:43:08 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{40, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{40, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{40, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -26037,44 +22447,6 @@ nodes = (
 width = 489;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{105, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{105, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{105, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -26140,23 +22512,9 @@ unicode = 2026;
 },
 {
 glyphname = exclam;
-lastChange = "2016-09-24 01:14:36 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -26189,20 +22547,6 @@ nodes = (
 width = 201;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -26266,27 +22610,9 @@ unicode = 00A1;
 },
 {
 glyphname = numbersign;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{225, 196}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{643, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -26367,24 +22693,6 @@ nodes = (
 width = 571;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{188, 264}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{643, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -26469,23 +22777,9 @@ unicode = 0023;
 },
 {
 glyphname = period;
-lastChange = "2016-09-28 13:55:58 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{40, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -26510,20 +22804,6 @@ nodes = (
 width = 163;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{105, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -26553,23 +22833,9 @@ unicode = 002E;
 },
 {
 glyphname = question;
-lastChange = "2016-09-24 01:16:29 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{25, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{732, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -26626,20 +22892,6 @@ nodes = (
 width = 452;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{732, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -26727,26 +22979,9 @@ unicode = 00BF;
 },
 {
 glyphname = quotedbl;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{63, 151}";
-},
-{
-horizontal = 1;
-place = "{472, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{720, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -26775,23 +23010,6 @@ nodes = (
 width = 293;
 },
 {
-hints = (
-{
-place = "{63, 216}";
-},
-{
-horizontal = 1;
-place = "{472, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{720, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -26824,23 +23042,9 @@ unicode = 0022;
 },
 {
 glyphname = quotesingle;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{472, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{720, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -26858,20 +23062,6 @@ nodes = (
 width = 147;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{472, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{720, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -26893,23 +23083,9 @@ unicode = 0027;
 },
 {
 glyphname = semicolon;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-120, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{290, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -26947,20 +23123,6 @@ nodes = (
 width = 201;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-120, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{355, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27002,23 +23164,9 @@ unicode = 003B;
 },
 {
 glyphname = slash;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27038,20 +23186,6 @@ nodes = (
 width = 322;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27075,23 +23209,9 @@ unicode = 002F;
 },
 {
 glyphname = underscore;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{14, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27107,20 +23227,6 @@ nodes = (
 width = 600;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{81, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27190,15 +23296,9 @@ width = 175;
 },
 {
 glyphname = braceleft;
-lastChange = "2016-09-17 19:39:34 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{287, 24}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27246,12 +23346,6 @@ nodes = (
 width = 272;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{256, 81}";
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27303,15 +23397,9 @@ unicode = 007B;
 },
 {
 glyphname = braceright;
-lastChange = "2016-09-17 19:39:38 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{287, 24}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27359,12 +23447,6 @@ nodes = (
 width = 320;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{256, 81}";
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27416,23 +23498,9 @@ unicode = 007D;
 },
 {
 glyphname = bracketleft;
-lastChange = "2016-09-27 13:57:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-149, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{746, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27452,20 +23520,6 @@ nodes = (
 width = 343;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-149, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{746, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27490,23 +23544,9 @@ unicode = 005B;
 },
 {
 glyphname = bracketright;
-lastChange = "2016-09-27 13:57:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{746, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-149, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27526,20 +23566,6 @@ nodes = (
 width = 343;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{746, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-149, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27564,23 +23590,9 @@ unicode = 005D;
 },
 {
 glyphname = parenleft;
-lastChange = "2016-09-24 01:17:11 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-163, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{747, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27607,20 +23619,6 @@ nodes = (
 width = 394;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-164, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{746, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27651,23 +23649,9 @@ unicode = 0028;
 },
 {
 glyphname = parenright;
-lastChange = "2016-09-24 01:17:20 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{747, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-163, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27694,20 +23678,6 @@ nodes = (
 width = 400;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{743, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-167, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27738,23 +23708,9 @@ unicode = 0029;
 },
 {
 glyphname = emdash;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{179, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{193, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27770,20 +23726,6 @@ nodes = (
 width = 700;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{174, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{255, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27803,23 +23745,9 @@ unicode = 2014;
 },
 {
 glyphname = endash;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{179, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{193, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27835,20 +23763,6 @@ nodes = (
 width = 509;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{174, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{255, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27868,23 +23782,9 @@ unicode = 2013;
 },
 {
 glyphname = hyphen;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{184, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{198, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27900,20 +23800,6 @@ nodes = (
 width = 300;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{147, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{228, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -27957,23 +23843,9 @@ unicode = 00AD;
 },
 {
 glyphname = guillemetleft;
-lastChange = "2016-09-17 19:45:39 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{77, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -28014,20 +23886,6 @@ nodes = (
 width = 601;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{77, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -28099,23 +23957,9 @@ unicode = 00BB;
 },
 {
 glyphname = guilsinglleft;
-lastChange = "2016-09-17 19:45:29 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{77, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -28139,20 +23983,6 @@ nodes = (
 width = 392;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{400, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{77, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -28207,27 +24037,13 @@ unicode = 203A;
 },
 {
 glyphname = quotedblbase;
-lastChange = "2016-09-24 01:18:28 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = quotedblright;
 transform = "{1, 0, 0, 1, 0, -693}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-47, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{92, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -28240,20 +24056,6 @@ name = quotedblright;
 transform = "{1, 0, 0, 1, 0, -621}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-53, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{92, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 width = 334;
 }
@@ -28262,7 +24064,7 @@ unicode = 201E;
 },
 {
 glyphname = quotedblleft;
-lastChange = "2016-09-24 01:21:22 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -28273,20 +24075,6 @@ transform = "{1, 0, 0, 1, 113, 0}";
 {
 name = quoteleft;
 transform = "{1, 0, 0, 1, 13, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{711, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{572, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -28302,20 +24090,6 @@ transform = "{1, 0, 0, 1, 139, 0}";
 name = quoteleft;
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{711, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{566, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 width = 331;
 }
@@ -28324,7 +24098,7 @@ unicode = 201C;
 },
 {
 glyphname = quotedblright;
-lastChange = "2016-09-24 01:19:01 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -28334,20 +24108,6 @@ name = quoteright;
 {
 name = quoteright;
 transform = "{1, 0, 0, 1, 76, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{572, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{711, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -28363,20 +24123,6 @@ name = quoteright;
 transform = "{1, 0, 0, 1, 142, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{566, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{711, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 width = 334;
 }
@@ -28385,23 +24131,9 @@ unicode = 201D;
 },
 {
 glyphname = quoteleft;
-lastChange = "2016-09-24 01:21:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{711, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{572, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -28421,20 +24153,6 @@ nodes = (
 width = 164;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{711, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{566, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -28458,23 +24176,9 @@ unicode = 2018;
 },
 {
 glyphname = quoteright;
-lastChange = "2016-09-24 01:19:06 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{572, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{711, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -28495,20 +24199,6 @@ nodes = (
 width = 164;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{566, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{711, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -28533,27 +24223,13 @@ unicode = 2019;
 },
 {
 glyphname = quotesinglbase;
-lastChange = "2016-09-24 01:21:47 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = quoteright;
 transform = "{1, 0, 0, 1, 0, -678}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-47, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{92, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -28564,20 +24240,6 @@ components = (
 {
 name = quoteright;
 transform = "{1, 0, 0, 1, 0, -632}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-53, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{92, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -28680,29 +24342,12 @@ unicode = 20B5;
 },
 {
 glyphname = cent;
-lastChange = "2016-09-27 15:54:51 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = c;
-}
-);
-hints = (
-{
-place = "{36, 193}";
-},
-{
-horizontal = 1;
-place = "{438, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-68, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -28723,23 +24368,6 @@ width = 417;
 components = (
 {
 name = c;
-}
-);
-hints = (
-{
-place = "{36, 227}";
-},
-{
-horizontal = 1;
-place = "{438, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-68, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID1;
@@ -28763,38 +24391,12 @@ unicode = 00A2;
 },
 {
 glyphname = colonsign;
-lastChange = "2016-09-20 17:43:09 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = C;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-21, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{734, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -28826,32 +24428,6 @@ components = (
 name = C;
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{-19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -28880,23 +24456,9 @@ unicode = 20A1;
 },
 {
 glyphname = currency;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{219, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{496, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -28969,20 +24531,6 @@ nodes = (
 width = 500;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{196, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{522, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -29059,44 +24607,12 @@ unicode = 00A4;
 },
 {
 glyphname = dollar;
-lastChange = "2016-09-24 01:30:18 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = S;
-}
-);
-hints = (
-{
-place = "{100, 178}";
-},
-{
-place = "{264, 220}";
-},
-{
-horizontal = 1;
-place = "{764, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-68, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{704, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -29119,38 +24635,6 @@ components = (
 name = S;
 }
 );
-hints = (
-{
-place = "{74, 242}";
-},
-{
-place = "{232, 252}";
-},
-{
-horizontal = 1;
-place = "{764, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-68, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{704, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -29170,23 +24654,9 @@ unicode = 0024;
 },
 {
 glyphname = dong;
-lastChange = "2016-09-20 19:28:58 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{775, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -29253,20 +24723,6 @@ nodes = (
 width = 539;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-9, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -29337,19 +24793,13 @@ unicode = 20AB;
 },
 {
 glyphname = euro;
-lastChange = "2016-09-24 01:30:39 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = C;
 transform = "{1, 0, 0, 1, 31, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{150, 208}";
 }
 );
 layerId = UUID0;
@@ -29382,12 +24832,6 @@ name = C;
 transform = "{1, 0, 0, 1, 68, 0}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{112, 275}";
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -29418,23 +24862,9 @@ unicode = 20AC;
 },
 {
 glyphname = florin;
-lastChange = "2016-09-17 15:12:51 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -29470,20 +24900,6 @@ nodes = (
 width = 280;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -29589,7 +25005,7 @@ unicode = 20B2;
 },
 {
 glyphname = kip;
-lastChange = "2016-09-20 17:53:27 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -29616,20 +25032,6 @@ components = (
 {
 name = K;
 transform = "{1, 0, 0, 1, 20, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{355, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{408, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -29788,35 +25190,9 @@ unicode = 20A4;
 },
 {
 glyphname = liraTurkish;
-lastChange = "2016-09-24 01:32:09 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{744, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{28, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -29864,44 +25240,6 @@ nodes = (
 width = 616;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{708, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-232, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -29954,7 +25292,7 @@ unicode = 20BA;
 },
 {
 glyphname = manat;
-lastChange = "2016-09-27 13:57:23 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -29982,20 +25320,6 @@ components = (
 {
 name = U;
 transform = "{-1, 0, 0, -1, 771, 736}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{5, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{937, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -30316,23 +25640,9 @@ unicode = 20BD;
 },
 {
 glyphname = rupeeIndian;
-lastChange = "2016-09-24 01:33:24 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{36, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{736, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -30383,20 +25693,6 @@ nodes = (
 width = 614;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -30451,23 +25747,9 @@ unicode = 20B9;
 },
 {
 glyphname = sterling;
-lastChange = "2016-09-20 18:08:45 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{634, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -30524,20 +25806,6 @@ nodes = (
 width = 574;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{634, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -30645,42 +25913,12 @@ unicode = 20A9;
 },
 {
 glyphname = yen;
-lastChange = "2016-09-24 01:35:50 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = Y;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{100, 177}";
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -30712,36 +25950,6 @@ components = (
 name = Y;
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{100, 244}";
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -30770,23 +25978,9 @@ unicode = 00A5;
 },
 {
 glyphname = bulletoperator;
-lastChange = "2016-09-20 20:48:15 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{260, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{300, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -30810,20 +26004,6 @@ nodes = (
 width = 174;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{217, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{322, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -30876,23 +26056,9 @@ unicode = 2215;
 },
 {
 glyphname = plus;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{51, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{411, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -30916,20 +26082,6 @@ nodes = (
 width = 543;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{51, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{411, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -30994,23 +26146,9 @@ unicode = 2212;
 },
 {
 glyphname = multiply;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{265, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31050,20 +26188,6 @@ nodes = (
 width = 500;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{313, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{1, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -31107,38 +26231,9 @@ unicode = 00D7;
 },
 {
 glyphname = divide;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{231, 40}";
-},
-{
-horizontal = 1;
-place = "{224, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{210, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{71, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{361, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31190,35 +26285,6 @@ nodes = (
 width = 501;
 },
 {
-hints = (
-{
-place = "{202, 103}";
-},
-{
-horizontal = 1;
-place = "{287, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{206, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{72, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{427, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -31274,15 +26340,9 @@ unicode = 00F7;
 },
 {
 glyphname = equal;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{150, 208}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31307,12 +26367,6 @@ nodes = (
 width = 708;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{112, 275}";
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -31396,23 +26450,9 @@ unicode = 2260;
 },
 {
 glyphname = greater;
-lastChange = "2016-09-24 01:36:08 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-15, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{491, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31431,20 +26471,6 @@ nodes = (
 width = 650;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-14, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{490, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -31467,23 +26493,9 @@ unicode = 003E;
 },
 {
 glyphname = less;
-lastChange = "2016-09-24 01:36:37 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{491, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-15, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31501,20 +26513,6 @@ nodes = (
 width = 680;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{490, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-14, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -31536,35 +26534,9 @@ unicode = 003C;
 },
 {
 glyphname = greaterequal;
-lastChange = "2016-09-24 01:36:48 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{310, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{816, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{816, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{310, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31591,32 +26563,6 @@ nodes = (
 width = 554;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{186, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{690, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{690, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{186, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -31647,23 +26593,9 @@ unicode = 2265;
 },
 {
 glyphname = lessequal;
-lastChange = "2016-09-24 01:36:59 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{816, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{310, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31691,20 +26623,6 @@ nodes = (
 width = 554;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{690, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{186, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -31736,23 +26654,9 @@ unicode = 2264;
 },
 {
 glyphname = plusminus;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{136, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{571, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31785,20 +26689,6 @@ nodes = (
 width = 524;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{100, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{571, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -31870,7 +26760,7 @@ unicode = 2248;
 },
 {
 glyphname = asciitilde;
-lastChange = "2016-09-24 14:18:53 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 background = {
@@ -31909,20 +26799,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = "{459, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{541, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31960,20 +26836,6 @@ nodes = (
 width = 384;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{449, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{552, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -32015,23 +26877,9 @@ unicode = 007E;
 },
 {
 glyphname = logicalnot;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{148, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{241, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -32049,20 +26897,6 @@ nodes = (
 width = 559;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{148, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{248, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -32635,26 +27469,12 @@ unicode = 221A;
 },
 {
 glyphname = micro;
-lastChange = "2016-09-17 17:48:03 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
 {
 name = u;
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-201, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -32677,20 +27497,6 @@ components = (
 name = u;
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{375, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-201, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -32710,37 +27516,9 @@ unicode = 00B5;
 },
 {
 glyphname = percent;
-lastChange = "2016-09-24 01:53:34 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{108, 220}";
-},
-{
-place = "{412, 220}";
-},
-{
-horizontal = 1;
-place = "{4, 217}";
-},
-{
-horizontal = 1;
-place = "{280, 217}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{500, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -32824,34 +27602,6 @@ nodes = (
 width = 726;
 },
 {
-hints = (
-{
-place = "{90, 256}";
-},
-{
-place = "{394, 256}";
-},
-{
-horizontal = 1;
-place = "{-28, 253}";
-},
-{
-horizontal = 1;
-place = "{262, 253}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{500, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -32939,37 +27689,9 @@ unicode = 0025;
 },
 {
 glyphname = perthousand;
-lastChange = "2016-09-24 01:53:47 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{108, 220}";
-},
-{
-place = "{412, 220}";
-},
-{
-horizontal = 1;
-place = "{4, 217}";
-},
-{
-horizontal = 1;
-place = "{280, 217}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{500, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -33087,34 +27809,6 @@ nodes = (
 width = 1021;
 },
 {
-hints = (
-{
-place = "{90, 256}";
-},
-{
-place = "{394, 256}";
-},
-{
-horizontal = 1;
-place = "{-16, 253}";
-},
-{
-horizontal = 1;
-place = "{262, 253}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{500, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -33291,25 +27985,9 @@ unicode = 25CA;
 },
 {
 glyphname = at;
-lastChange = "2016-09-27 15:54:51 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{94, 216}";
-},
-{
-place = "{671, 214}";
-},
-{
-horizontal = 1;
-place = "{-207, 215}";
-},
-{
-horizontal = 1;
-place = "{369, 216}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -33392,22 +28070,6 @@ nodes = (
 width = 968;
 },
 {
-hints = (
-{
-place = "{65, 303}";
-},
-{
-place = "{602, 308}";
-},
-{
-horizontal = 1;
-place = "{-232, 304}";
-},
-{
-horizontal = 1;
-place = "{303, 307}";
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -33496,17 +28158,9 @@ unicode = 0040;
 },
 {
 glyphname = ampersand;
-lastChange = "2016-09-21 15:40:31 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-19, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -33576,14 +28230,6 @@ nodes = (
 width = 700;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-19, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -33657,29 +28303,9 @@ unicode = 0026;
 },
 {
 glyphname = paragraph;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{38, 177}";
-},
-{
-place = "{201, 177}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -33705,26 +28331,6 @@ nodes = (
 width = 489;
 },
 {
-hints = (
-{
-place = "{38, 246}";
-},
-{
-place = "{201, 246}";
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{750, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -33754,23 +28360,9 @@ unicode = 00B6;
 },
 {
 glyphname = section;
-lastChange = "2016-09-24 01:39:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-10, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{730, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -33851,47 +28443,6 @@ nodes = (
 width = 558;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-50, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{762, -20}";
-target = down;
-type = TopGhost;
-},
-{
-place = "{62, 243}";
-},
-{
-horizontal = 1;
-place = "{384, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{704, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-8, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -33976,35 +28527,9 @@ unicode = 00A7;
 },
 {
 glyphname = copyright;
-lastChange = "2016-09-24 01:39:40 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{118, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{627, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{553.66, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{229.67, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -34076,32 +28601,6 @@ nodes = (
 width = 793;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{148, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{597, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{528.37, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{204.38, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -34177,35 +28676,9 @@ unicode = 00A9;
 },
 {
 glyphname = registered;
-lastChange = "2016-09-24 01:40:26 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{118, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{627, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{227.024, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{558.054, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -34285,32 +28758,6 @@ nodes = (
 width = 312;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{148, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{597, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{210, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{541.03, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -34394,35 +28841,9 @@ unicode = 00AE;
 },
 {
 glyphname = trademark;
-lastChange = "2016-09-21 16:22:15 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{732, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -34460,32 +28881,6 @@ nodes = (
 width = 561;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{732, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -34527,18 +28922,9 @@ unicode = 2122;
 },
 {
 glyphname = degree;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-place = "{61, 153}";
-},
-{
-horizontal = 1;
-place = "{484, 152}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -34581,15 +28967,6 @@ nodes = (
 width = 282;
 },
 {
-hints = (
-{
-place = "{90, 97}";
-},
-{
-horizontal = 1;
-place = "{511, 97}";
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -34636,23 +29013,9 @@ unicode = 00B0;
 },
 {
 glyphname = bar;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-232, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -34668,20 +29031,6 @@ nodes = (
 width = 219;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-232, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -34701,23 +29050,9 @@ unicode = 007C;
 },
 {
 glyphname = brokenbar;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-233, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -34742,20 +29077,6 @@ nodes = (
 width = 215;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-233, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -34784,35 +29105,9 @@ unicode = 00A6;
 },
 {
 glyphname = dagger;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-232, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{184, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{198, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -34837,32 +29132,6 @@ nodes = (
 width = 300;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-232, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{147, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{228, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -34891,27 +29160,9 @@ unicode = 2020;
 },
 {
 glyphname = daggerdbl;
-lastChange = "2016-09-21 16:22:46 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-232, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{150, 208}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -34945,24 +29196,6 @@ nodes = (
 width = 312;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-232, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{700, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{112, 275}";
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -35000,7 +29233,7 @@ unicode = 2021;
 },
 {
 glyphname = numero;
-lastChange = "2016-09-27 15:54:51 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -35010,32 +29243,6 @@ name = N;
 {
 name = o;
 transform = "{1, 0, 0, 1, 754, 311}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{19, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{409, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{222, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{236, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -35084,23 +29291,9 @@ unicode = 2116;
 },
 {
 glyphname = asciicircum;
-lastChange = "2016-08-26 20:32:07 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{660, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{479, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -35127,20 +29320,6 @@ nodes = (
 width = 470;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{660, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{479, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -35673,7 +29852,7 @@ unicode = 0304;
 },
 {
 glyphname = hookabovecomb;
-lastChange = "2016-10-05 21:19:09 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -35725,20 +29904,6 @@ position = "{193, 530}";
 {
 name = top;
 position = "{163, 750}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{732, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -36036,7 +30201,7 @@ unicode = 0324;
 },
 {
 glyphname = commaaccentcomb;
-lastChange = "2016-09-24 00:59:51 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
@@ -36047,20 +30212,6 @@ position = "{112, 0}";
 {
 name = bottom;
 position = "{77, -177}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{-46, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{-252, 21}";
-target = up;
-type = BottomGhost;
 }
 );
 layerId = UUID0;
@@ -36293,27 +30444,13 @@ unicode = 0331;
 },
 {
 glyphname = strokeshortcomb;
-lastChange = "2016-09-24 00:32:43 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 anchors = (
 {
 name = _center;
 position = "{202, 244}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{492, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{506, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -36335,20 +30472,6 @@ anchors = (
 {
 name = _center;
 position = "{182, 371}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{341, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{394, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID1;
@@ -37400,23 +31523,9 @@ unicode = 02C9;
 },
 {
 glyphname = acute;
-lastChange = "2016-09-19 23:02:24 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{479, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{612, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -37432,20 +31541,6 @@ nodes = (
 width = 206;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{479, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{612, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -37567,23 +31662,9 @@ unicode = 02C7;
 },
 {
 glyphname = cedilla;
-lastChange = "2016-09-24 14:08:25 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{-223, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{0, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -37625,20 +31706,6 @@ nodes = (
 width = 452;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{-250, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{0, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -37729,15 +31796,9 @@ unicode = 02C6;
 },
 {
 glyphname = dieresis;
-lastChange = "2016-09-15 15:44:14 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{501, 40}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -37780,12 +31841,6 @@ nodes = (
 width = 370;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{468, 105}";
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -37885,23 +31940,9 @@ unicode = 02D9;
 },
 {
 glyphname = grave;
-lastChange = "2016-09-19 23:02:53 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{612, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{479, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -37917,20 +31958,6 @@ nodes = (
 width = 200;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{612, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{479, 21}";
-target = up;
-type = BottomGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -37950,7 +31977,7 @@ unicode = 0060;
 },
 {
 glyphname = hungarumlaut;
-lastChange = "2016-09-19 23:03:55 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
 components = (
@@ -37960,32 +31987,6 @@ name = acute;
 {
 name = acute;
 transform = "{1, 0, 0, 1, 92, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{479, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{612, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{479, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{612, -20}";
-target = down;
-type = TopGhost;
 }
 );
 layerId = UUID0;
@@ -38031,32 +32032,6 @@ name = acute;
 transform = "{1, 0, 0, 1, 184, -2}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{479, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{612, -20}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{479, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{612, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 width = 501;
 }
@@ -38065,23 +32040,9 @@ unicode = 02DD;
 },
 {
 glyphname = macron;
-lastChange = "2016-09-15 15:44:14 +0000";
+lastChange = "2016-10-15 13:52:18 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{492, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{506, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -38097,20 +32058,6 @@ nodes = (
 width = 399;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{478, 21}";
-target = up;
-type = BottomGhost;
-},
-{
-horizontal = 1;
-place = "{531, -20}";
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID1;
 paths = (
 {
@@ -38812,12 +32759,6 @@ unicode = 0000;
 );
 instances = (
 {
-customParameters = (
-{
-name = "TTFAutohint options";
-value = "--strong-stem-width=\"\"";
-}
-);
 interpolationWeight = 20;
 instanceInterpolations = {
 UUID0 = 0.955882;
@@ -38827,12 +32768,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-customParameters = (
-{
-name = "TTFAutohint options";
-value = "--strong-stem-width=\"\"";
-}
-);
 interpolationWeight = 50;
 instanceInterpolations = {
 UUID0 = 0.735294;
@@ -38842,12 +32777,6 @@ name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = "TTFAutohint options";
-value = "--strong-stem-width=\"\"";
-}
-);
 instanceInterpolations = {
 UUID0 = 0.367647;
 UUID1 = 0.632353;
@@ -38855,12 +32784,6 @@ UUID1 = 0.632353;
 name = Regular;
 },
 {
-customParameters = (
-{
-name = "TTFAutohint options";
-value = "--strong-stem-width=\"\"";
-}
-);
 interpolationWeight = 150;
 instanceInterpolations = {
 UUID1 = 1;
