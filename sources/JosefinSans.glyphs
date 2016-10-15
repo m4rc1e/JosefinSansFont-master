@@ -1,5 +1,8 @@
 {
 .appVersion = "926";
+DisplayStrings = (
+wizardEs
+);
 classes = (
 {
 automatic = 1;
@@ -96,6 +99,13 @@ name = zero;
 );
 fontMaster = (
 {
+alignmentZones = (
+"{750, 7}",
+"{700, 9}",
+"{375, 35}",
+"{0, -9}",
+"{-180, -16}"
+);
 ascender = 750;
 capHeight = 700;
 customParameters = (
@@ -150,6 +160,13 @@ weightValue = 14;
 xHeight = 375;
 },
 {
+alignmentZones = (
+"{750, 37}",
+"{736, 9}",
+"{437, 42}",
+"{0, -9}",
+"{-210, -11}"
+);
 ascender = 750;
 capHeight = 736;
 customParameters = (
@@ -13281,7 +13298,7 @@ unicode = 0125;
 },
 {
 glyphname = i;
-lastChange = "2016-10-15 13:52:18 +0000";
+lastChange = "2016-10-15 14:32:32 +0000";
 layers = (
 {
 anchors = (
@@ -29396,7 +29413,7 @@ unicode = 0308;
 },
 {
 glyphname = dotaccentcomb;
-lastChange = "2016-09-20 16:50:29 +0000";
+lastChange = "2016-10-15 14:32:32 +0000";
 layers = (
 {
 anchors = (
